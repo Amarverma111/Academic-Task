@@ -4,10 +4,12 @@ This is assignment of operting system on which we  will finding the  FCFS(first 
 
 
 6.Suppose that the following processes arrive for execution at the times indicated. Each process will run for the amount of time listed. In answering the questions, use nonpreemptive scheduling, and base all decisions on the information you have at the time the decision must be made.
-Process Arrival Time Burst Time
-P1 	0.0 		8
-P2 	0.4 		4
-P3 	1.0 		1
+___________________________________________
+|  process  |  Arrival Time |   Burst Time |
+|   p1      |    0.0        |     8        |
+|   p2      |    0.4        |     4        | 
+|   p3      |    1.0        |     1        | 
+|__________________________________________|
 a. What is the average turnaround time for these processes with the FCFS scheduling algorithm?
 b. What is the average turnaround time for these processes with the SJF scheduling algorithm?
 c. Compute what average turnaround time will be if the CPU is left idle for the first 1 unit and then SJF scheduling is used. Remember that processes P1 and P2 are waiting during this idle time, so their waiting time may increase.
@@ -16,12 +18,12 @@ Solution-
 
 a. FCFS Gantt chart 
    FCFS is a first come first serve
-   
-   process    Arrival Time   Burst Time
-    p1          0.0             8
-    p2          0.4             4
-    p3          1.0             1
-    
+___________________________________________
+|  process  |  Arrival Time |   Burst Time |
+|   p1      |    0.0        |     8        |
+|   p2      |    0.4        |     4        | 
+|   p3      |    1.0        |     1        | 
+|__________________________________________|
     
     process :  _____________________
               |__P1__|__P2__|__P3__|
@@ -32,7 +34,7 @@ a. FCFS Gantt chart
       Turnaround Time=completion time - Arrival Time
                  Now we finding the Trunaround time for p1,p2 and p3.
                  so,
-                 p1= 8  - 0.0 =8
+                 p1= 8  - 0.0 =8 
                  p2= 12 - 0.4 =11.6
                  p3= 13 - 1.0 =12
                  
@@ -41,11 +43,12 @@ a. FCFS Gantt chart
 
 b.SJF
 Shortest job first
- process    Arrival Time   Burst Time
-    p1          0.0             8
-    p2          0.4             4
-    p3          1.0             1
-    
+ ___________________________________________
+|  process  |  Arrival Time |   Burst Time |
+|   p1      |    0.0        |     8        |
+|   p2      |    0.4        |     4        | 
+|   p3      |    1.0        |     1        | 
+|__________________________________________|
     
       
     process :  _____________________
@@ -65,10 +68,12 @@ Now Find turnaround Time=?
                                 28.6/3=9.53
 c.     
 
- process    Arrival Time   Burst Time
-    p1          0.0             8
-    p2          0.4             4
-    p3          1.0             1
+___________________________________________
+|  process  |  Arrival Time |   Burst Time |
+|   p1      |    0.0        |     8        |
+|   p2      |    0.4        |     4        | 
+|   p3      |    1.0        |     1        | 
+|__________________________________________|
     
        
     process :  __________________________
