@@ -128,4 +128,4 @@ Now find the turnaround time=?
   p3= 2 -  1.0 = 1
                   
  now,Average Turnaround time=total/no.of process
-                              20.6/3=6.68	
+                              20.6/3=6.68	  
