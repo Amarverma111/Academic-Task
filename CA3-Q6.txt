@@ -12,7 +12,7 @@ are waiting during this idle time, so their waiting time may increase.
 Solution-
 
 
-a. FCFS Gantt chart 
+a). FCFS Gantt chart 
 
 FCFS is a first come first serve
 
@@ -35,7 +35,7 @@ FCFS is a first come first serve
 
 Now find the turnaround time=?
 
-Turnaround Time=competion time -Arrival time 
+  Turnaround Time = competion time - Arrival time 
   Now we finding the turnaround time for p1,p2 and p3.
    so,
 
@@ -50,18 +50,18 @@ Turnaround Time=competion time -Arrival time
 
 
 
-b.SJF
+b).SJF
  
 Shortest job first   
    
 
-  _____________________________________
+   ____________________________________
   | Process | Arrival Time| Burst Time	|			
-  |	    |		  |	        |
-  |   P1    |	0.0	  |	8       |	
-  |   p2    |	0.4	  |	4       |
-  |   p3    |	1.0	  |	1       |
-  |_________|_____________|_____________| 
+  |	      |		        |	         |
+  |   P1    |	0.0	     |	8        |	
+  |   p2    |	0.4	     |	4        |
+  |   p3    |	1.0	     |	1        |
+  |_________|_____________|____________| 
 
 
 
@@ -94,14 +94,14 @@ Now find the turnaround time=?
 
 
 
-c.
+c).
    _____________________________________
   | Process | Arrival Time| Burst Time	|			
-  |	    |		  |	        |
-  |   P1    |	0.0	  |	8       |	
-  |   p2    |	0.4	  |	4       |
-  |   p3    |	1.0	  |	1       |
-  |_________|_____________|_____________| 
+  |	      |		        |	         |
+  |   P1    |	0.0	     |	8        |	
+  |   p2    |	0.4	     |	4        |
+  |   p3    |	1.0	     |	1        |
+  |_________|_____________|____________| 
 
 
 
